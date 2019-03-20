@@ -1,154 +1,79 @@
-# CONTRIBUTING
+# Contributing
 
-Contributions are always welcome, no matter how large or small. Before contributing,
-please read the [code of conduct](CODE_OF_CONDUCT.md).
+When contributing to this repository, please first discuss the change you wish to make via issue,
+email, or any other method with the owners of this repository before making a change. 
 
-## Setup
+Please note we have a code of conduct, please follow it in all your interactions with the project.
 
-> Install yarn on your system: [https://yarnpkg.com/en/docs/install](https://yarnpkg.com/en/docs/install)
+## Pull Request Process
 
-### Install dependencies
+1. Ensure any install or build dependencies are removed before the end of the layer when doing a 
+   build.
+2. Update the README.md with details of changes to the interface, this includes new environment 
+   variables, exposed ports, useful file locations and container parameters.
+3. Increase the version numbers in any examples files and the README.md to the new version that this
+   Pull Request would represent. The versioning scheme we use is [SemVer](http://semver.org/).
+4. You may merge the Pull Request in once you have the sign-off of two other developers, or if you 
+   do not have permission to do that, you may request the second reviewer to merge it for you.
 
-> Only required on the first run, subsequent runs can use `yarn` to both
-bootstrap and run the development server using `yarn develop`.
-Since this starter using the [netlify-lambda](https://github.com/netlify/netlify-lambda), there could be further issues you, please check the [Readme](https://github.com/netlify/netlify-lambda) for further information and set up questions. 
+## Code of Conduct
 
-```sh
-$ git clone https://github.com/netlify-templates/gatsby-starter-netlify-cms
-$ yarn 
-```
+### Our Pledge
 
-## Available scripts
+In the interest of fostering an open and welcoming environment, we as
+contributors and maintainers pledge to making participation in our project and
+our community a harassment-free experience for everyone, regardless of age, body
+size, disability, ethnicity, gender identity and expression, level of experience,
+nationality, personal appearance, race, religion, or sexual identity and
+orientation.
 
-### `start`
+### Our Standards
 
-Starts the development server. This task runs both the `start:app` and `start:lambda` scripts.
+Examples of behavior that contributes to creating a positive environment
+include:
 
-#### Usage
+* Using welcoming and inclusive language
+* Being respectful of differing viewpoints and experiences
+* Gracefully accepting constructive criticism
+* Focusing on what is best for the community
+* Showing empathy towards other community members
 
-```sh
-$ yarn start
-```
+Examples of unacceptable behavior by participants include:
 
-### `build`
+* The use of sexualized language or imagery and unwelcome sexual attention or
+advances
+* Trolling, insulting/derogatory comments, and personal or political attacks
+* Public or private harassment
+* Publishing others' private information, such as a physical or electronic
+  address, without explicit permission
+* Other conduct which could reasonably be considered inappropriate in a
+  professional setting
 
-Build the static files into the `public` folder, turns lambda functions into a deployable form. This task runs both the `build:app` and `build:lambda` scripts.
+### Our Responsibilities
 
-#### Usage
+Project maintainers are responsible for clarifying the standards of acceptable
+behavior and are expected to take appropriate and fair corrective action in
+response to any instances of unacceptable behavior.
 
-```sh
-$ yarn build
-```
+Project maintainers have the right and responsibility to remove, edit, or
+reject comments, commits, code, wiki edits, issues, and other contributions
+that are not aligned to this Code of Conduct, or to ban temporarily or
+permanently any contributor for other behaviors that they deem inappropriate,
+threatening, offensive, or harmful.
 
-### `clean`
+### Scope
 
-Removes all the files from `public`, `.cache` directories using the `rimraf` command.
+This Code of Conduct applies both within project spaces and in public spaces
+when an individual is representing the project or its community. Examples of
+representing a project or community include using an official project e-mail
+address, posting via an official social media account, or acting as an appointed
+representative at an online or offline event. Representation of a project may be
+further defined and clarified by project maintainers.
 
-#### Usage
+### Attribution
 
-```sh
-yarn clean
-```
+This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
+available at [http://contributor-covenant.org/version/1/4][version]
 
-### `develop`
-
-Runs the `clean` script and starts the gatsby develop server using the command `gatsby develop`. Since this is not starting the lambda server it can be used when you only changing the site and not the lambda functions.
-
-#### Usage
-
-```sh
-yarn develop
-```
-
-### `serve`
-
-This command is shorthand for `gatsby serve` 
-
-#### Usage
-
-```sh
-yarn serve
-```
-
-### `test`
-
-Not implmented yet
-
-#### Usage
-
-```sh
-yarn test
-```
-
-### `format`
-
-Formats code and docs according to our style guidelines using `prettier`
-
-#### Usage
-
-```sh
-yarn format
-```
-
-### `start:app`
-
-Runs the `develop` command, this mapping is needed so we can start both gatsby and lambda with one command (`yarn start`).
-
-#### Usage
-
-```sh
-yarn start:app
-```
-
-### `start:lambda`
-
-Runs the `netlify-lambda` command, starts the lambda server in develop mode.
-
-#### Usage
-
-```sh
-yarn start:lambda
-```
-
-### `build:app`
-
-Builds the gatsby app
-
-#### Usage
-
-```sh
-yarn build:app
-```
-
-### `build:lambda`
-
-Runs the `netlify-lambda build` command, compiles the functions.
-
-#### Usage
-
-```sh
-yarn build:lambda
-```
-
-
-## Pull Requests
-
-We actively welcome your pull requests!
-
-If you need help with Git or our workflow, please ask on [Gitter.im](https://gitter.im/netlify/NetlifyCMS). We want your contributions even if you're just learning Git. Our maintainers are happy to help!
-
-Netlify CMS uses the [Forking Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow) + [Feature Branches](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow). Additionally, PR's should be [rebased](https://www.atlassian.com/git/tutorials/merging-vs-rebasing) on master when opened, and again before merging.
-
-1. Fork the repo.
-2. Create a branch from `master`. If you're addressing a specific issue, prefix your branch name with the issue number.
-2. If you've added code that should be tested, add tests.
-3. If you've changed APIs, update the documentation.
-4. Run `yarn test` and ensure the test suite passes. (Not applicable yet)
-5. Use `yarn format` to format and lint your code.
-6. PR's must be rebased before merge (feel free to ask for help).
-7. PR should be reviewed by two maintainers prior to merging.
-
-## License
-
-By contributing to the Gatsby - Netlify CMS starter, you agree that your contributions will be licensed
-under its [MIT license](LICENSE).
+[homepage]: http://contributor-covenant.org
+[version]: http://contributor-covenant.org/version/1/4/
