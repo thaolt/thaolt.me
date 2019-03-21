@@ -14,7 +14,7 @@ module.exports = {
       path: '/'
     },
     {
-      label: 'About me',
+      label: 'About',
       path: '/about/'
     },
     {
@@ -31,7 +31,7 @@ module.exports = {
       telegram: '#',
       twitter: 'spthaolt',
       github: 'thaolt',
-      rss: '#',
+      rss: 'rss.xml',
       vkontakte: '#'
     }
   }
