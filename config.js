@@ -1,9 +1,9 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  url: 'https://thaolt.me',
+  title: 'thaolt\' blog',
+  subtitle: 'just my blog',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -23,14 +23,14 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'ThaoLT',
+    photo: '/thaolt.jpg',
+    bio: 'Web/Software Developer, love OSS, blog about anything I like: new tech, web design, gnu/linux, embedded',
     contacts: {
       email: '#',
       telegram: '#',
-      twitter: '#',
-      github: '#',
+      twitter: 'spthaolt',
+      github: 'thaolt',
       rss: '#',
       vkontakte: '#'
     }
