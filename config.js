@@ -4,13 +4,13 @@ module.exports = {
   url: 'https://thaolt.me',
   title: 'thaolt\' blog',
   subtitle: 'just my blog',
-  copyright: '© All rights reserved.',
+  copyright: 'Content licensed under Common Creative License',
   disqusShortname: '',
   postsPerPage: 4,
   googleAnalyticsId: 'UA-73379983-2',
   menu: [
     {
-      label: 'Articles',
+      label: 'Blog',
       path: '/'
     },
     {
