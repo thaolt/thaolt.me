@@ -42,8 +42,8 @@ module.exports = {
           {
             site {
               siteMetadata {
-                site_url: url
                 title
+                site_url: url
                 description: subtitle
               }
             }
@@ -84,7 +84,8 @@ module.exports = {
                 }
               }
             `,
-          output: '/rss.xml'
+          output: '/rss.xml',
+          title: 'thaolt\'s blog RSS feed'
         }]
       }
     },

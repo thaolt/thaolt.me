@@ -1,6 +1,6 @@
 ---
 template: post
-title: Welcome to my blog
+title: 'Welcome to my blog'
 slug: /posts/welcome-to-my-blog/
 draft: false
 date: 2019-02-01T09:22:44.331Z
