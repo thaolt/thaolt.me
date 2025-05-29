@@ -2,7 +2,7 @@
 template: post
 title: 'Introducing lvgl_raylib: A Lightweight Binding for Desktop GUI Development'
 slug: >-
-  /posts/introducing-lvgl-raylib-a-lvgl-raylib-lightweight-binding-for-desktop-gui-development
+  /posts/introducing-lvgl-raylib-a-lvgl-raylib-lightweight-binding-for-desktop-gui-development/
 draft: false
 date: 2025-05-29T12:34:27.104Z
 description: >-
